@@ -1,0 +1,77 @@
+body, html {
+  width: 100%;
+  height: 90%;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+.container {
+  background-image: url('../images/test.jpg');
+  background-size: cover;
+  size: unset;
+  color: rgb(0, 0, 0);
+  display: flow-root;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  filter: sepia(40%);
+  filter: brightness(70%);
+  filter: blur(40%);
+  filter: contrast(90%);
+  margin-bottom: 50px;
+  filter: drop-shadow(5px 5px 15px #0000009a);
+  align-self: center;
+  }
+  #logoBox {
+    width: 20vw;
+    padding: 50px;
+  }
+#whiteSpace {
+  position: absolute;
+  top: 0px;
+  color: #000;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1em;
+}
+#objective {
+  padding: 100px;
+  padding-top: 30%;
+  align-content: center;
+  padding-bottom: 4%;
+}
+
+}
+p {
+  margin-bottom: 50px;
+}
+
+#landingBox\ blue, #landingBox\ pink  {
+height: 35vh;
+margin-bottom: 200px;
+font-weight: 900;
+font-size: 18px;
+display: flex;
+text-align: center;
+align-content: center;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin: 0 auto 20px;
+}
+#landingBox\ blue {
+  background-color: #DAE0E9;
+}
+#landingBox\ blue:hover {
+  filter: drop-shadow(1px 1px 10px #00000065);
+}
+#landingBox\ pink:hover {
+  filter: drop-shadow(1px 1px 10px #00000065);
+}
+#landingBox\ pink {
+  background-color: #FFEDE5;
+
+}
